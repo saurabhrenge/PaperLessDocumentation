@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMSSS Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <img src="govlogo.jpeg" alt="Gov Logo">
+                <img src="mah_logo.jpeg" alt="PMSSS Logo">
+            </div>
+            <h1>Prime Minister's Special Scholarship Scheme (PMSSS)</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">How to Apply</a></li>
+                <li><a href="#">Scholarships</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Scrolling Notification Bar -->
+    <div class="scrolling-banner">
+        <p>Last date for Application Acceptance for A.Y. 24-25 is 31st March 2025. Application Re-apply extended till 31st Mar 2025.</p>
+    </div>
+
+    <main>
+        <section class="main-content">
+            <div class="login-container">
+                <h2>Login</h2>
+                <form action="#">
+                    <label for="username">Enter Username</label>
+                    <input type="text" id="username" name="username" required>
+                    
+                    <label for="password">Enter Password</label>
+                    <input type="password" id="password" name="password" required>
+                    
+                    <div class="form-buttons">
+                        <button type="submit" class="login-btn">Login Here</button>
+                        
+                        <!-- Updated buttons to link to the signup page -->
+                        <a href="sign-up.html" class="forgot-btn">Forgot Password</a>
+                        <a href="sign-up.html" class="forgot-btn">Forgot Username</a>
+                    </div>
+                    
+            <!-- Instructions Panel -->
+            <div class="instructions">
+                <h3>Instructions</h3>
+                <ul>
+                    <li>Enter your registered username</li>
+                    <li>Enter your Password</li>
+                    <li>Click Login Here to access your account</li>
+                    <li>If you forgot your password, click Forgot Password</li>
+                    <li>If you forgot your Username, click Forgot Username</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Side Panel for Quick Links -->
+        <aside class="side-panel">
+            <a href="#" class="side-btn">New Applicant Registration</a>
+            <a href="#" class="side-btn">Find Eligible Schemes</a>
+            <a href="#" class="side-btn">Applicant Login</a>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 PMSSS | All Rights Reserved</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+</body>
+</html>
